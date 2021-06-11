@@ -1,0 +1,139 @@
+/* --- fonts --- */
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Anton|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Lilita+One&display=swap');
+
+.jumbotron,
+nav {
+	font-family: 'Luckiest Guy', cursive;
+}
+body {
+	font-family: 'Anton', sans-serif;
+	background: #b6b6b6;
+}
+.work-sans {
+	font-family: 'Work Sans', sans-serif !important;
+	font-weight: bolder;
+	font-style: italic;
+}
+.caveat {
+	font-family: 'Caveat Brush', cursive !important;
+}
+div.margin {
+	margin-top: 25px;
+	margin-bottom: 150px;
+}
+h1.expand {
+	min-height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.arrowContainer h1 {
+	width: 100%;
+	text-align: center;
+}
+.fa-arrow-down {
+	font-size: 3rem;
+	/* 00ffff */
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: white;
+}
+.cards {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.card {
+	border: none;
+}
+.center {
+	text-align: center;
+	font-family: 'Lilita One', cursive;
+}
+h1.center {
+	margin-top: 100px;
+}
+.carousel-inner {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.carousel-inner img {
+	height: 400px;
+	width: 400px;
+}
+.carousel-control {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+/* h1 without margins */
+.lg-txt {
+	font-size: 2em;
+}
+.split {
+	margin-top: 100px;
+	display: flex;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.half {
+	width: 50%;
+	min-height: 500px;
+	text-align: center;
+}
+.half:nth-child(1) {
+	border-right: 1px solid black;
+}
+.split-head {
+	font-size: 2em;
+	border-bottom: 1px solid black;
+}
+.split-body {
+	padding-top: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.circle-image {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background: url('images/forest.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.short {
+	width: 50%;
+	background: white;
+}
+footer {
+	margin-top: 200px;
+	height: 75px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.5em;
+	padding: 25px;
+}
+.socials {
+	width: 250px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+/* --- bootstrap padding fix --- */
+[class*="col-"] {
+	padding: 1rem;
+}
